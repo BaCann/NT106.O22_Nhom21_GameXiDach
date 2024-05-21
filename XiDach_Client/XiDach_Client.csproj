@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0AFDF15-9BC9-47A9-AE59-E55ACE58E35B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>XiDach_Client</RootNamespace>
+    <AssemblyName>XiDach_Client</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\PublicFunction.cs" />
+    <Compile Include="GameRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameRoom.Designer.cs">
+      <DependentUpon>GameRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lobby.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lobby.Designer.cs">
+      <DependentUpon>Lobby.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Card.cs" />
+    <Compile Include="Model\Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WelcomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeForm.Designer.cs">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GameRoom.resx">
+      <DependentUpon>GameRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lobby.resx">
+      <DependentUpon>Lobby.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="WelcomeForm.resx">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Asset\Pictures\10bich.jpg" />
+    <Content Include="Asset\Pictures\10chuon.jpg" />
+    <Content Include="Asset\Pictures\10co.jpg" />
+    <Content Include="Asset\Pictures\10ro.jpg" />
+    <Content Include="Asset\Pictures\2bich.jpg" />
+    <Content Include="Asset\Pictures\2chuon.jpg" />
+    <Content Include="Asset\Pictures\2co.jpg" />
+    <Content Include="Asset\Pictures\2ro.jpg" />
+    <Content Include="Asset\Pictures\3bich.jpg" />
+    <Content Include="Asset\Pictures\3chuon.jpg" />
+    <Content Include="Asset\Pictures\3co.jpg" />
+    <Content Include="Asset\Pictures\3ro.jpg" />
+    <Content Include="Asset\Pictures\4bich.jpg" />
+    <Content Include="Asset\Pictures\4chuon.jpg" />
+    <Content Include="Asset\Pictures\4co.jpg" />
+    <Content Include="Asset\Pictures\4ro.jpg" />
+    <Content Include="Asset\Pictures\5bich.jpg" />
+    <Content Include="Asset\Pictures\5chuon.jpg" />
+    <Content Include="Asset\Pictures\5co.jpg" />
+    <Content Include="Asset\Pictures\5ro.jpg" />
+    <Content Include="Asset\Pictures\6bich.jpg" />
+    <Content Include="Asset\Pictures\6chuon.jpg" />
+    <Content Include="Asset\Pictures\6co.jpg" />
+    <Content Include="Asset\Pictures\6ro.jpg" />
+    <Content Include="Asset\Pictures\7bich.jpg" />
+    <Content Include="Asset\Pictures\7chuon.jpg" />
+    <Content Include="Asset\Pictures\7co.jpg" />
+    <Content Include="Asset\Pictures\7ro.jpg" />
+    <Content Include="Asset\Pictures\8bich.jpg" />
+    <Content Include="Asset\Pictures\8chuon.jpg" />
+    <Content Include="Asset\Pictures\8co.jpg" />
+    <Content Include="Asset\Pictures\8ro.jpg" />
+    <Content Include="Asset\Pictures\9bich.jpg" />
+    <Content Include="Asset\Pictures\9chuon.jpg" />
+    <Content Include="Asset\Pictures\9co.jpg" />
+    <Content Include="Asset\Pictures\9ro.jpg" />
+    <Content Include="Asset\Pictures\Abich.jpg" />
+    <Content Include="Asset\Pictures\Achuon.jpg" />
+    <Content Include="Asset\Pictures\Aco.jpg" />
+    <Content Include="Asset\Pictures\Aro.jpg" />
+    <Content Include="Asset\Pictures\BackCard.jpg" />
+    <Content Include="Asset\Pictures\Jbich.jpg" />
+    <Content Include="Asset\Pictures\Jchuon.jpg" />
+    <Content Include="Asset\Pictures\Jco.jpg" />
+    <Content Include="Asset\Pictures\Jro.jpg" />
+    <Content Include="Asset\Pictures\Kbich.jpg" />
+    <Content Include="Asset\Pictures\Kchuon.jpg" />
+    <Content Include="Asset\Pictures\Kco.jpg" />
+    <Content Include="Asset\Pictures\Kro.jpg" />
+    <Content Include="Asset\Pictures\Qbich.jpg" />
+    <Content Include="Asset\Pictures\Qchuon.jpg" />
+    <Content Include="Asset\Pictures\Qco.jpg" />
+    <Content Include="Asset\Pictures\Qro.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
