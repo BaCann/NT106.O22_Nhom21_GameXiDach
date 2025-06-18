@@ -18,9 +18,11 @@
 - **Server**: Quản lý phòng chơi, xử lý logic chung, phân phối lượt chơi, kiểm tra thắng/thua.
 - Giao tiếp giữa client và server sử dụng TCP Socket.
 
-![Network Stack/Khởi tạo kết nối](./XiDach_Client/Asset/Pictures/init.png)
-![Network Stack/Bắt đầu trò chơi](./XiDach_Client/Asset/Pictures/start.png)
-![Network Stack/Các hành động đến khi kết thúc](./XiDach_Client/Asset/Pictures/actions.png)
+<div align="center">
+  <img src="./XiDach_Client/Asset/Pictures/init.png" alt="Khởi tạo kết nối" width="500"/>
+  <img src="./XiDach_Client/Asset/Pictures/start.png" alt="Bắt đầu trò chơi" width="500"/>
+  <img src="./XiDach_Client/Asset/Pictures/actions.png" alt="Các hành động đến khi kết thúc" width="500"/>
+</div>
 
 ## Luồng hoạt động chính
 
@@ -84,9 +86,11 @@ GameXiDach_Nhom21_NT106.O22/
 
 ## Ảnh minh họa
 
-![WelcomeForm](./XiDach_Client/Asset/Pictures/welcome.png)
-![Màn hình phòng chờ](./XiDach_Client/Asset/Pictures/waiting_room.png)
-![Màn hình phòng chơi](./XiDach_Client/Asset/Pictures/main_room.png)
+<div align="center">
+  <img src="./XiDach_Client/Asset/Pictures/welcome.png" alt="WelcomeForm" width="500"/>
+  <img src="./XiDach_Client/Asset/Pictures/waiting_room.png" alt="Màn hình phòng chờ" width="500"/>
+  <img src="./XiDach_Client/Asset/Pictures/main_room.png" alt="Màn hình phòng chơi" width="500"/>
+</div>
 
 ## Kiểm thử
 
