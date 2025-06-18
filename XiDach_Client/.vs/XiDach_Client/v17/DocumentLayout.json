@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\NT106.O22_Nhom21_GameXiDach\\XiDach_Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AFDF15-9BC9-47A9-AE59-E55ACE58E35B}|XiDach_Client.csproj|d:\\onedrive\\m\u00E1y t\u00EDnh\\nt106.o22_nhom21_gamexidach\\xidach_client\\core\\publicfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AFDF15-9BC9-47A9-AE59-E55ACE58E35B}|XiDach_Client.csproj|solutionrelative:core\\publicfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PublicFunction.cs",
+              "DocumentMoniker": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\NT106.O22_Nhom21_GameXiDach\\XiDach_Client\\Core\\PublicFunction.cs",
+              "RelativeDocumentMoniker": "Core\\PublicFunction.cs",
+              "ToolTip": "D:\\OneDrive\\M\u00E1y t\u00EDnh\\NT106.O22_Nhom21_GameXiDach\\XiDach_Client\\Core\\PublicFunction.cs",
+              "RelativeToolTip": "Core\\PublicFunction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:39:12.14Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
